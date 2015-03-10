@@ -5,10 +5,12 @@ close all;
 clc;
 
 mint = 0;maxt = 1;
-step1 = 0.1;
+step1 = 0.05;
 step2 = 0.05;
 f0 = 1;
-[X1, F1] = Euler(mint, maxt, step1, f0, @Func);
+%% this is improved Euler method
+[X1, F1] = ImproveEuler(mint, maxt, step1, f0, @Func);
+%% this is Euler method
 [X2, F2] = Euler(mint, maxt, step2, f0, @Func);
 
 plot(X1, F1, '*', X1, F1);
