@@ -7,6 +7,6 @@
 * Chinese Version：《微分方程数值解法》,李荣华
 
 ### things I've done
-* Euler method for ODE: [Link](https://github.com/xindongzhang/NMDE/tree/master/Euler)
-* Adams method for ODE: [Link](https://github.com/xindongzhang/NMDE/tree/master/Adams)
-* Runge--Kutta for ODE: [Link](https://github.com/xindongzhang/NMDE/tree/master/Runger-Kutta)
+* Euler method(Euler and Improved-Euler) for ODE: [Link](https://github.com/xindongzhang/NMDE/tree/master/Euler)
+* Adams method(interier and outerier) for ODE: [Link](https://github.com/xindongzhang/NMDE/tree/master/Adams)
+* Runge--Kutta(four degrees and four steps) for ODE: [Link](https://github.com/xindongzhang/NMDE/tree/master/Runger-Kutta)
